@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListeEtudiant>
+	<Formation id='0'>
+		<etudiant nom='ACI' prenom='Michel' metier='Recruteur JavaJ2EE' />
+	</Formation>
+	<Formation id='1'>
+		<etudiant nom='Capel' prenom='Adeline' metier='JavaJ2EE' />
+		<etudiant nom='Gros' prenom='Allan' metier='JavaJ2EE' />
+	</Formation>
+
+</ListeEtudiant>

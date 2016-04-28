@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<listeEtudiant>
+  <!--Ceci est la listedes etudiants-->
+  <formation id="0">
+    <etudiant nom="metier0" prenom="prenom0"/>
+    <etudiant nom="metier1" prenom="prenom1"/>
+    <etudiant nom="metier2" prenom="prenom2"/>
+    <etudiant nom="metier3" prenom="prenom3"/>
+    <etudiant nom="metier4" prenom="prenom4"/>
+  </formation>
+  <formation id="1">
+    <etudiant nom="metier0" prenom="prenom0"/>
+    <etudiant nom="metier1" prenom="prenom1"/>
+    <etudiant nom="metier2" prenom="prenom2"/>
+    <etudiant nom="metier3" prenom="prenom3"/>
+    <etudiant nom="metier4" prenom="prenom4"/>
+  </formation>
+  <formation id="2">
+    <etudiant nom="metier0" prenom="prenom0"/>
+    <etudiant nom="metier1" prenom="prenom1"/>
+    <etudiant nom="metier2" prenom="prenom2"/>
+    <etudiant nom="metier3" prenom="prenom3"/>
+    <etudiant nom="metier4" prenom="prenom4"/>
+  </formation>
+</listeEtudiant>

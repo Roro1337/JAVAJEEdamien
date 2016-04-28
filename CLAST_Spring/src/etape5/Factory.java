@@ -1,0 +1,36 @@
+package etape5;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.util.Properties;
+
+import etape4.A;
+import etape4.I;
+
+public class Factory {
+	private boolean res;
+
+	public Factory() throws Exception {
+
+		Properties props = new Properties();
+		props.load(new FileInputStream(new File("etape 6/Factory.props")));
+
+		Package p = this.getClass().getPackage();
+		String nomClasse = p.getName() + "." + props.getProperty("implementation_i_class");
+
+		Class<?> d = Class.forName(nomClasse);
+		I i = (I) d.newInstance();
+
+		A a = new A(i);
+		a.m();
+	}
+
+	public boolean isRes() {
+		return res;
+	}
+
+	public void setRes(boolean res) {
+		this.res = res;
+	}
+
+}
